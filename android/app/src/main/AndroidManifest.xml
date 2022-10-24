@@ -1,7 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.saqrelfiragny.egystore">
+    <uses-permission android:name="android.permission.INTERNET" />
+
    <application
-        android:label="Egy-Store"
+        android:label="Task"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
