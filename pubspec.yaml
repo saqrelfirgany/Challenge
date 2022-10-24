@@ -1,0 +1,73 @@
+name: egystore
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  flutter_spinkit: ^5.1.0
+  dio: ^4.0.6
+  shared_preferences: ^2.0.13
+  get: ^4.6.1
+  get_storage: ^2.0.3
+  flutter_screenutil: ^5.1.1
+  flutter_svg: ^1.0.3
+  fluttertoast: ^8.0.9
+  shimmer: ^2.0.0
+  provider: ^5.0.0
+  badges: ^2.0.3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.9.2"
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/app_logo.png"
+  adaptive_icon_foreground: "assets/app_logo2.png"
+  adaptive_icon_background: "#FFFFFF"
+
+  flutter_lints: ^1.0.0
+
+flutter:
+
+  # the material Icons class.
+  uses-material-design: true
+
+
+  assets:
+    - assets/
+    - assets/Icons/
+    - assets/Icons/intro/
+    - assets/Icons/main/
+    - assets/Icons/nav/
+    - assets/images/
+
+  fonts:
+    - family: CairoBold
+      fonts:
+        - asset: assets/Fonts/Cairo-Bold.ttf
+    - family: CairoRegular
+      fonts:
+        - asset: assets/Fonts/Cairo-Regular.ttf
+    - family: RobotoRegular
+      fonts:
+        - asset: assets/Fonts/Roboto-Regular.ttf
+    - family: ElMessiri
+      fonts:
+        - asset: assets/Fonts/ElMessiri-Regular.ttf
+    - family: NotoKufiArabic
+      fonts:
+        - asset: assets/Fonts/NotoKufiArabic-Regular.ttf
